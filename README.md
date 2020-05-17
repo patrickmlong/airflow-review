@@ -13,7 +13,6 @@ Quick Airflow command line setup:
     $ cd airflow_home/
     $ mkdir dags
     $ airflow initdb
-    $ touch airflow.cfg unitest.cfg
     $ airflow webserver
     
 From a browser open port http://0.0.0.0:8080/
