@@ -1,4 +1,4 @@
-import datetime import timedelta 
+from datetime import timedelta 
 
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
@@ -13,7 +13,7 @@ def hello_airflow():
 
 default_args = {
     'owner': 'airflow',
-    'start_date'; days_age(2),
+    'start_date': days_ago(2),
     'concurrency': 1,
     'retries': 0
 }

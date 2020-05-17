@@ -1,9 +1,9 @@
-[2020-05-17 18:36:41,219] {dag_processing.py:821} INFO - Processing files using up to 1 processes at a time 
-[2020-05-17 18:36:41,221] {dag_processing.py:822} INFO - Process each file at most once every 0 seconds
-[2020-05-17 18:36:41,223] {dag_processing.py:824} INFO - Checking for new files in /Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags every 300 seconds
-[2020-05-17 18:36:41,227] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
-[2020-05-17 18:36:41,228] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 22:31:41.228585+00:00
-[2020-05-17 18:36:41,361] {dag_processing.py:1033} INFO - 
+[2020-05-17 19:55:58,207] {dag_processing.py:821} INFO - Processing files using up to 1 processes at a time 
+[2020-05-17 19:55:58,208] {dag_processing.py:822} INFO - Process each file at most once every 0 seconds
+[2020-05-17 19:55:58,209] {dag_processing.py:824} INFO - Checking for new files in /Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags every 300 seconds
+[2020-05-17 19:55:58,211] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-05-17 19:55:58,212] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 23:50:58.212472+00:00
+[2020-05-17 19:55:58,337] {dag_processing.py:1033} INFO - 
 ================================================================================
 DAG File Processing Stats
 
@@ -26,89 +26,15 @@ File Path                                                                       
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0
+/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-05-17T23:55:58
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-05-17T22:36:41
+/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
 /Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
 ================================================================================
-[2020-05-17 18:36:53,243] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
-[2020-05-17 18:36:53,246] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 22:31:53.246374+00:00
-[2020-05-17 18:37:03,276] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
-[2020-05-17 18:37:03,278] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 22:32:03.278204+00:00
-[2020-05-17 18:37:11,429] {dag_processing.py:1033} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags/first_dag.py                                                                                  0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2020-05-17T22:36:53
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.10s           2020-05-17T22:36:49
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2020-05-17T22:37:11
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2020-05-17T22:37:09
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2020-05-17T22:36:59
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2020-05-17T22:37:01
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-05-17T22:37:05
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2020-05-17T22:37:03
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-05-17T22:37:07
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.20s           2020-05-17T22:36:55
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2020-05-17T22:36:45
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-05-17T22:36:57
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.11s           2020-05-17T22:36:47
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-05-17T22:36:41
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.21s           2020-05-17T22:36:51
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2020-05-17T22:36:43
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
-================================================================================
-[2020-05-17 18:37:13,315] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
-[2020-05-17 18:37:13,318] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 22:32:13.317997+00:00
-[2020-05-17 18:37:23,357] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
-[2020-05-17 18:37:23,360] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 22:32:23.360644+00:00
-[2020-05-17 18:37:33,389] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
-[2020-05-17 18:37:33,392] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 22:32:33.391952+00:00
-[2020-05-17 18:37:41,527] {dag_processing.py:1033} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                                                                                                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags/first_dag.py                                                                                  0           0  0.10s           2020-05-17T22:37:27
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py                                               0           0  0.11s           2020-05-17T22:36:53
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_complex.py                                                   0           0  0.11s           2020-05-17T22:37:39
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_python_operator.py                                           0           0  0.11s           2020-05-17T22:37:11
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/test_utils.py                                                        0           0  0.11s           2020-05-17T22:37:09
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0  0.11s           2020-05-17T22:37:29
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0  0.11s           2020-05-17T22:37:21
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0  0.11s           2020-05-17T22:36:59
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0  0.11s           2020-05-17T22:37:01
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_docker_operator.py                                           0           0  0.10s           2020-05-17T22:37:05
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/tutorial.py                                                          0           0  0.11s           2020-05-17T22:37:03
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/docker_copy_data.py                                                  0           0  0.11s           2020-05-17T22:37:25
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_pig_operator.py                                              0           0  0.10s           2020-05-17T22:37:07
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0  0.20s           2020-05-17T22:36:55
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0  0.11s           2020-05-17T22:37:15
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_docker_swarm_operator.py                                     0           0  0.11s           2020-05-17T22:37:19
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_xcom.py                                                      0           0  0.11s           2020-05-17T22:37:35
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_http_operator.py                                             0           0  0.11s           2020-05-17T22:36:57
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0  0.11s           2020-05-17T22:37:23
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0  0.11s           2020-05-17T22:37:17
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0  0.21s           2020-05-17T22:37:37
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0  0.11s           2020-05-17T22:37:31
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0  0.11s           2020-05-17T22:37:41
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0  0.11s           2020-05-17T22:37:33
-/Users/patricklong/Desktop/airflow/airflow_play/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2020-05-17T22:37:13
-================================================================================
-[2020-05-17 18:37:43,412] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
-[2020-05-17 18:37:43,415] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 22:32:43.415607+00:00
-[2020-05-17 18:37:52,864] {dag_processing.py:804} INFO - Exiting gracefully upon receiving signal 15
+[2020-05-17 19:56:10,210] {dag_processing.py:1296} INFO - Finding 'running' jobs without a recent heartbeat
+[2020-05-17 19:56:10,212] {dag_processing.py:1300} INFO - Failing jobs without heartbeat after 2020-05-17 23:51:10.212203+00:00
+[2020-05-17 19:56:13,081] {dag_processing.py:804} INFO - Exiting gracefully upon receiving signal 15
