@@ -18,6 +18,6 @@ Quick Airflow command line setup:
     
 From a browser access port http://0.0.0.0:8080/
 
-Or run the associated bash file:
+Or to simply setup an airflow directory:
 
     $ bash setup_airflow.sh <new virtual env> 
