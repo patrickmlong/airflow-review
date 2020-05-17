@@ -3,10 +3,8 @@
 
 setup_airflow() {
 
-    python -m venv $1
-    source $1/bin/activate
-    pip install apache-airflow
-    cd $1 
+    mkdir $@_dir
+    cd $@_dir; pwd;
     mkdir airflow_home
     export AIRFLOW_HOME='pwd' airflow_home
     cd airflow_home/
@@ -15,4 +13,4 @@ setup_airflow() {
     touch airflow.cfg unitest.cfg
 }
 
-setup_airflow
+setup_airflow $@
