@@ -20,4 +20,4 @@ From a browser access port http://0.0.0.0:8080/
 
 Or to simply setup an airflow directory:
 
-    $ bash setup_airflow.sh <new virtual env> 
+    $ bash setup_airflow.sh <parent dir>
