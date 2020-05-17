@@ -7,7 +7,7 @@ Quick Airflow command line setup:
     $ python -m venv airflow_play
     $ source airflow_play/bin/activate
     $ pip install apache-airflow
-    $ airflow_play/
+    $ cd airflow_play/
     $ mkdir airflow_home
     $ export AIRFLOW_HOME='pwd' airflow_home
     $ cd airflow_home/
@@ -17,3 +17,6 @@ Quick Airflow command line setup:
     $ airflow webserver
     
 From a browser access port http://0.0.0.0:8080/
+
+Or run the associated bash file:
+    $ bash setup_airflow.sh 
