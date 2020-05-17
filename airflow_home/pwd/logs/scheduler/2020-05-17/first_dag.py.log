@@ -1,0 +1,6 @@
+[2020-05-17 18:37:27,383] {scheduler_job.py:154} INFO - Started process (PID=17688) to work on /Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags/first_dag.py
+[2020-05-17 18:37:27,392] {scheduler_job.py:1562} INFO - Processing file /Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags/first_dag.py for tasks to queue
+[2020-05-17 18:37:27,394] {logging_mixin.py:112} INFO - [2020-05-17 18:37:27,393] {dagbag.py:396} INFO - Filling up the DagBag from /Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags/first_dag.py
+[2020-05-17 18:37:27,405] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['first_dag']) retrieved from /Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags/first_dag.py
+[2020-05-17 18:37:27,420] {logging_mixin.py:112} INFO - [2020-05-17 18:37:27,420] {dag.py:1501} INFO - Creating ORM DAG for first_dag
+[2020-05-17 18:37:27,435] {scheduler_job.py:162} INFO - Processing /Users/patricklong/Desktop/airflow/airflow-review/airflow_home/pwd/dags/first_dag.py took 0.051 seconds

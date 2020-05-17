@@ -10,7 +10,6 @@ setup_airflow() {
     cd airflow_home/
     mkdir dags
     airflow initdb
-    touch airflow.cfg unitest.cfg
 }
 
 setup_airflow $@
