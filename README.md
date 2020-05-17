@@ -16,7 +16,7 @@ Quick Airflow command line setup:
     $ touch airflow.cfg unitest.cfg
     $ airflow webserver
     
-From a browser access port http://0.0.0.0:8080/
+From a browser open port http://0.0.0.0:8080/
 
 Or to simply setup an airflow directory:
 
