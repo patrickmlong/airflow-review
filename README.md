@@ -13,6 +13,10 @@ Quick Airflow command line setup:
     $ cd airflow_home/
     $ mkdir dags
     $ airflow initdb
+    
+next run and review outputs for:
+
+    $ airflow scheduler
     $ airflow webserver
     
 From a browser open port http://0.0.0.0:8080/
